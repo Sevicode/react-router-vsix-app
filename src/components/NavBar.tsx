@@ -11,8 +11,9 @@ export const NavBar = () => {
         <Nav>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/portfolio">Portfolio</Link>
+          <Link to="/contact">Contact</Link>
+          
         </Nav>
         </Navbar.Collapse>
       </Container>
