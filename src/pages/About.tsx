@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import avatar from "../img/avatar.png";
 import js from "../img/js.png";
 import ts from "../img/ts.png";
@@ -52,7 +52,7 @@ export const About = () => {
             exercitation Lorem duis veniam. Esse excepteur non ut ea
             reprehenderit est dolore.
           </p>
-          <button onClick={handleClick}>Back</button>
+          <Button onClick={handleClick} variant="link">Back</Button>
         </Col>
         <Col>
         <h2>My Stack</h2>
