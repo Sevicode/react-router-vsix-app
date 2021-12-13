@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+.navbar {
+    height: 100vh;
+    width: 300px;
+}
+
+.navbar-nav {
+    margin: 20px auto; 
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 50px;
+   
+}
+
+.card {
+   margin: 10% auto;
+   border: none;
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-media ul li{
+    list-style: none;
+    padding: 10px;
+}

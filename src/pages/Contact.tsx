@@ -11,7 +11,6 @@ export const Contact = () => {
     const { name, value } = event.target;
     if (name === "name") {
       setName(value);
-      
     } else if (name === "email") {
       setEmail(value);
     } else if (name === "message") {

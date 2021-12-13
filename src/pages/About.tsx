@@ -9,20 +9,16 @@ import css from "../img/css.png";
 import bs from "../img/bs.png";
 import { useNavigate } from "react-router";
 
-
-
 export const About = () => {
-
   let navigate = useNavigate();
-  
-  const handleBack = () => { 
+
+  const handleBack = () => {
     navigate(-1);
-  }
+  };
 
   const handleForward = () => {
     navigate(1);
-  }
-  
+  };
 
   return (
     <Container>
@@ -59,26 +55,43 @@ export const About = () => {
             exercitation Lorem duis veniam. Esse excepteur non ut ea
             reprehenderit est dolore.
           </p>
-          <Button onClick={handleBack} variant="link">Back</Button>
-          <Button onClick={handleForward} variant="link">Next</Button>
+          <Button onClick={handleBack} variant="link">
+            Back
+          </Button>
+          <Button onClick={handleForward} variant="link">
+            Next
+          </Button>
         </Col>
         <Col>
-        <h2>My Stack</h2>
-        <Row><Image src={js} alt="JavaScript Logo" /></Row>
-        <Row><Image src={ts} alt="TypeScript Logo" /></Row>
-        <Row><Image src={react} alt="React Logo" /></Row>
-        <Row><Image src={html} alt="HTML Logo" /></Row>
-        <Row><Image src={css} alt="CSS Logo"/></Row>
-        <Row><Image src={bs} alt="Bootstrap Logo"/></Row>
-        <Row><Image /></Row>
-        <Row><Image /></Row>
+          <h2>My Stack</h2>
+          <Row>
+            <Image src={js} alt="JavaScript Logo" />
+          </Row>
+          <Row>
+            <Image src={ts} alt="TypeScript Logo" />
+          </Row>
+          <Row>
+            <a href="https://reactjs.org/">
+              <Image src={react} alt="React Logo" />
+            </a>
+          </Row>
+          <Row>
+            <Image src={html} alt="HTML Logo" />
+          </Row>
+          <Row>
+            <Image src={css} alt="CSS Logo" />
+          </Row>
+          <Row>
+            <Image src={bs} alt="Bootstrap Logo" />
+          </Row>
+          <Row>
+            <Image />
+          </Row>
+          <Row>
+            <Image />
+          </Row>
         </Col>
-        
       </Row>
-      
-        
-        
-      
     </Container>
   );
 };
