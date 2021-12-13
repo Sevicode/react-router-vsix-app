@@ -12,10 +12,17 @@ import { useNavigate } from "react-router";
 
 
 export const About = () => {
+
   let navigate = useNavigate();
-  const handleClick = () => { 
+  
+  const handleBack = () => { 
     navigate(-1);
   }
+
+  const handleForward = () => {
+    navigate(1);
+  }
+  
 
   return (
     <Container>
@@ -52,7 +59,8 @@ export const About = () => {
             exercitation Lorem duis veniam. Esse excepteur non ut ea
             reprehenderit est dolore.
           </p>
-          <Button onClick={handleClick} variant="link">Back</Button>
+          <Button onClick={handleBack} variant="link">Back</Button>
+          <Button onClick={handleForward} variant="link">Next</Button>
         </Col>
         <Col>
         <h2>My Stack</h2>

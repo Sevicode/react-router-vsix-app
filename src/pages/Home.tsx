@@ -21,6 +21,8 @@ export const Home = () => {
                   euismod, nisi eget tincidunt euismod, nisi nunc interdum nisi,
                   sed tincidunt nunc nisl euismod nunc.
                 </p>
+
+               
               </Card.Text>
               <Card.Link href="/about">More about me</Card.Link>
               <Card.Link href="/portfolio">My portfolio</Card.Link>
