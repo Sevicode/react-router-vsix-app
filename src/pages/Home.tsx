@@ -6,7 +6,7 @@ export const Home = () => {
     <Container>
       <Row>
         <Col>
-          <Card>
+          <Card style={{width: '500px'}}>
             <Card.Body>
               <Card.Title>
                 <h1>John Doe</h1>
