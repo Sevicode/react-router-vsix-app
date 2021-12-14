@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <Navbar sticky="top" bg="light" expand="lg">
+    <Navbar sticky="top" bg="light" expand="md">
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
