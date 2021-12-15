@@ -1,13 +1,12 @@
 import React from "react";
-import { Container, Card, Row, Col, Image } from "react-bootstrap";
-import twitter from "../img/twitter.png";
-import linkedin from "../img/linkedin.png";
-import github from "../img/github.png";
+import { Container, Card, Row, Col} from "react-bootstrap";
+
 
 export const Home = () => {
   return (
+    <div className="home-body">
     <Container>
-      <Row>
+      <Row className="home-main-row">
         <Col>
           <Card style={{ width: "500px" }}>
             <Card.Body>
@@ -29,29 +28,9 @@ export const Home = () => {
               <Card.Link href="/portfolio">My portfolio</Card.Link>
             </Card.Body>
           </Card>
-          <Row className="social-media">
-            <ul>
-              <li>
-                <a href="www.linkedin.com">
-                  <Image src={linkedin} />
-                </a>
-              </li>
-
-              <li>
-                <a href="www.Github.com">
-                  <Image src={github} />
-                </a>
-              </li>
-
-              <li>
-                <a href="www.Twitter.com">
-                  <Image src={twitter} />
-                </a>
-              </li>
-            </ul>
-          </Row>
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };

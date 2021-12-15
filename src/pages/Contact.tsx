@@ -19,8 +19,9 @@ export const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container className="contact-form-container">
       <Form.Floating>
+        <h1>Contact Me</h1>
         <Form.Group>
           <Form.Label>Name</Form.Label>
           <Form.Control
