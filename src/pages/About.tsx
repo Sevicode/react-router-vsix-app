@@ -17,10 +17,6 @@ export const About = () => {
     navigate(-1);
   };
 
-  const handleForward = () => {
-    navigate(1);
-  };
-
   return (
     <Container className="about-container">
       <Row className="about-body">
@@ -60,9 +56,6 @@ export const About = () => {
           <div className="back-next-button">
             <Button onClick={handleBack} variant="link">
               Back
-            </Button>
-            <Button onClick={handleForward} variant="link">
-              Next
             </Button>
           </div>
         </Col>

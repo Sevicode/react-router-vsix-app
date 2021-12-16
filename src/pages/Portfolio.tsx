@@ -3,9 +3,6 @@ import { Row, Col, Card, Container, ListGroup, Image } from "react-bootstrap";
 import js1 from "../img/portfolio-img/js1.jpg";
 import js2 from "../img/portfolio-img/js2.jpg";
 import js3 from "../img/portfolio-img/js3.jpg";
-import twitter from "../img/twitter.png";
-import linkedin from "../img/linkedin.png";
-import github from "../img/github.png";
 
 export const Portfolio = () => {
   return (
@@ -199,27 +196,6 @@ export const Portfolio = () => {
           </Card>
         </Col>
       </Row>
-      <Row className="social-media">
-            <ul>
-              <li>
-                <a href="www.linkedin.com">
-                  <Image src={linkedin} />
-                </a>
-              </li>
-
-              <li>
-                <a href="www.Github.com">
-                  <Image src={github} />
-                </a>
-              </li>
-
-              <li>
-                <a href="www.Twitter.com">
-                  <Image src={twitter} />
-                </a>
-              </li>
-            </ul>
-          </Row>
     </Container>
   );
 };

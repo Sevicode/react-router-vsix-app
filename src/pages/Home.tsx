@@ -8,7 +8,7 @@ export const Home = () => {
     <Container>
       <Row className="home-main-row">
         <Col>
-          <Card style={{ width: "500px" }}>
+          <Card style={{ width: "800px" }}>
             <Card.Body>
               <Card.Title>
                 <h1>John Doe</h1>

@@ -4,14 +4,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif !important;
-  background-color: rgba(36, 23, 44, 0.9);
+  background-image: url("./img/contact-bg.jpg") !important;
+  background-size: cover !important;
+  
 }
 
 .navbar {
-  background-color: rgb(181, 166, 206);
-  color: darkslateblue;
-  
-
+  background-color: rgba(36, 23, 44, 0.9);
+ 
 }
 
 .navbar-nav {
@@ -21,8 +21,8 @@ body {
 .navbar-nav a {
   text-decoration: none;
   padding: 25px;
-  color: #000;
   font-weight: 600;
+  color: rgba(249, 248, 250, 0.9);
 }
 
 .social-media ul {
@@ -37,20 +37,16 @@ body {
 }
 
 .navbar-nav a:hover {
-    color: rgb(145, 65, 145);
-
-  }
-
-
+  color: rgb(202, 109, 202);
+}
 
 /* START: HOME page styling */
 
 .home-body {
   width: 100%;
-  height: 100vh;
-  background-image: url("./img/home-bg.jpg");
-    background-size: cover;
-
+  height: 100%;
+  background-image: url("./img/home-bg.jpg") !important;
+  background-size: cover;
 }
 .home-main-row {
   position: absolute;
@@ -60,8 +56,9 @@ body {
 }
 
 .card {
-  border: none;
-  background-color: rgb(250, 248, 253);
+  border: 5px solid rgb(158, 179, 199);
+  border-radius: 8px;
+  background-color: rgb(234, 236, 243);
 }
 
 /* START: ABOUT page styling */
@@ -120,13 +117,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 25px auto 50px auto;
+  margin: 5% auto 10% auto;
 }
 .portfolio-container h1 {
   text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(212, 185, 228);
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(2, 2, 12);
   margin: 25px auto;
 }
 .portfolio-container .social-media {
@@ -135,24 +132,28 @@ body {
 
 /* START: Contact Page Styling */
 
+.contact-image {
+  background-image: url("./img/contact-bg.jpg") !important;
+}
+
 .contact-form-container {
-  width: 500px;
+  width: 800px;
   height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  color: rgb(212, 185, 228);
-
-
+  
+ 
+  
 }
 
 .contact-form-container h1 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-
+  color: rgb(1, 7, 12);
 }
 
 .contact-form-container button {
@@ -160,17 +161,37 @@ body {
   height: 50px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(184, 169, 224, 0.8);
-  color: #000;
+  background-color: rgba(5, 10, 78, 0.8);
+  color: rgb(243, 234, 234);
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
 }
 
+.contact-form-container button:hover {
+  background-color: rgb(92, 112, 224);
+  color: rgb(243, 234, 234);
+}
+
 .contact-form-container label {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
+  color: rgb(1, 12, 22);
+}
 
+
+/* START: Footer Styling */
+
+.footer-container {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(36, 23, 44, 1);
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    
 }
